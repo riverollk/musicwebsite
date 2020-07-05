@@ -1,0 +1,105 @@
+<a href="http://www.instagram.com/ruexmag"><img src="https://ruexmag.files.wordpress.com/2020/05/follow-logo-azul.png" alt="" width="150" height="151" class="aligncenter size-full wp-image-6161" /></a>
+
+<pre>Esta es una colaboración de <a href="http://www.twitter.com/aliceinwow_">@aliceinwow_</a> para la sección de Lo Raro</pre>
+
+<!-- intro -->
+<p style="text-align:justify;">Este 2020 se cumplen tres años del ciberataque más grande en la historia del internet. La mañana del 12 de mayo del 2017 miles de usuarios en 150 países se encontraron con sus computadoras secuestradas por un ransonware. <u>La famosa "pantalla roja" indicaba que a menos de que el usuario pagara un rescate de $300 dólares en Bitcoin todos sus archivos serían destruídos.</u></p>
+
+<pre><b>ransomware</b>: es un tipo de malware que restringe el acceso a una parte,
+o a todo el sistema infectado a cambio de un rescate.</pre> 
+
+<p style="text-align:justify;">Este ataque afectaría a gran parte del sistema nacional de salud del Reino Unido -el conocido <em>NHS</em>- borró por completo computadoras de decenas de hospitales,  fábricas de automóviles en Francia tuvieron que ser detenidas, una compañía de telecomunicaciones en España tuvo que pedirle a todos sus empleados que apagaran sus computadoras, y para el 14 de mayo alrededor de 200,000 computadoras alrededor del mundo habían sido infectadas ya con el famoso <em>worm</em> llamado <u><b>WannaCry</b></u>.</p>
+
+<img class="aligncenter wp-image-6081" src="https://ruexmag.files.wordpress.com/2020/05/wannacry1.png" alt="" width="750" height="285" />
+
+<p style="text-align:justify;">De acuerdo con expertos en ciberseguridad, se cree que este <em>worm</em> fue elaborado a partir de una herramienta creada por nada más y nada menos que por la <em>National Security Agency</em> de los Estados Unidos llamada <u><b>Ethernalblue</b></u>, la cual fue robada semanas antes del ataque.</p>
+
+<p style="text-align:justify;"><b>Ethernalblue</b> fue desarrollada para permitirle acceso a la <em>NSA</em> a computadoras de terceros con fines de espionaje, vigilancia y "seguridad nacional". Ésta se aprovechaba de una vulnerabilidad en el <em>server message block</em>, o <em>SMB</em>, del software de <b>Microsoft</b>, un protocolo usado para compartir archivos, impresoras, y puertos seriales.</p>
+
+<p style="text-align:justify;">En abril del 2017 un grupo conocido de hackers rusos llamado <b>Shadow Brokers</b> robó esta herramienta y la publicó online. <b>Microsoft</b> rápidamente lanzó un <em>patch</em> para arreglar este problema y prevenir daños; sin embargo, bien sabemos que muchas personas no actualizan ni respaldan sus computadoras con regularidad; por lo tanto, miles y miles de computadoras aún se encontraban desprotegidas para el momento del ataque. <b>Tiempo después presenciaríamos el ataque más grande en la historia del internet junto con una de las caídas y redenciones más polémicas del mundo digital.</b></p>
+
+<img class="aligncenter wp-image-6082" src="https://ruexmag.files.wordpress.com/2020/05/wannacry2.png" alt="" width="750" height="285" />
+
+<p style="text-align:justify;"><b>WannaCry</b> es un <em>worm</em> que encontró la forma de aprovecharse de una vulnerabilidad de miles de computadoras alrededor del mundo con el sistema operativo de Microsoft que no estaban actualizadas, a través de la utilización del código llamado <u>EthernalBlue</u>, desarrollado como una herramienta de espionaje y robada un mes antes del ciberataque.</p>
+
+<p style="text-align:justify;">Por la naturaleza de su código éste no necesitaba de un <em>"host"</em> para esparcirse, como un archivo que un usuario descargara o un link en el cual hacer click (como los clásicos virus), no, éste fue diseñado para esparcirse de manera "invisible" a través de las redes de intercambio de archivos.</p>
+
+<img src="https://ruexmag.files.wordpress.com/2020/05/wana_decrypt0r_screenshot.png" alt="" width="600" height="453" class="aligncenter size-full wp-image-6091" />
+
+<p style="text-align:justify;">Una computadora infectada mostraba una pantalla roja con un temporizador demandando un pago en bitcoin. Si este no era pagado en el tiempo indicado la cantidad aumentaba y eventualmente los archivos serían destruídos. Expertos en seguridad llamaron al <em>worm</em> <b>"WannaCry"</b> debido a la extensión que agregaba a todos los archivos de la computadora infectada: <em><b> .wncry</b></em>.</p>
+
+<p style="text-align:justify;"><b>En términos del tamaño del impacto de un ciberataque en la vida de las personas, nunca habíamos presenciado algo como esto</b> ya que además de computadoras de civiles, este <em>worm</em> afectó sistemas de salud completos en los Estados Unidos y en el Reino Unido poniendo en riesgo la vida de miles de personas. Infectó un servicio de trenes en Alemania, departamentos de policía en la India, un sistema bancario en Rusia, universidades en China, una empresa de telecomunicaciones en España, entre otros.</p>
+
+<p style="text-align:justify;"><b>Según las estimaciones, para la tarde del 12 de mayo <u>WannaCry</u> había destruído ya los datos de alrededor de un cuarto de millón de computadoras alrededor del mundo, ocasionando daños equivalentes a entre los cuatro y ocho billones de dólares.</b> Mientras que en Estados Unidos miembros del <u>Departamento de Seguridad Nacional</u>, el <u>Departamento de Salud</u> y ejecutivos de hospitales americanos se reunían en una llamada para evaluar la amenza con posibles repercusiones catastróficas (inclusive mayores a las del <em>NHS</em> del Reino Unido), del otro lado del mundo un <em>hacker</em> salvaría al internet a sus tan solo 22 años desde la comodidad de su habitación. Y casi, podría decirse, por accidente. Fue así como de la noche a la mañana el mundo conoció a <b>MalwareTech</b>.</p>
+
+[embed]https://twitter.com/MalwareTechBlog/status/1260079657170296832?s=20[/embed]
+<hr />
+
+<img class="aligncenter wp-image-6083" src="https://ruexmag.files.wordpress.com/2020/05/wannacry3.png" alt="" width="750" height="285" />
+
+[caption id="attachment_6167" align="aligncenter" width="300"]<img src="https://ruexmag.files.wordpress.com/2020/05/hutchins.png?w=300" alt="" width="300" height="300" class="size-medium wp-image-6167" /> 'Marcus Hutchins' x Ramona Rosales para wired.com[/caption]
+
+<p style="text-align:justify;"><b>Marcus Hutchins</b>, conocido en internet por su pseudónimo <b>MalwareTech</b>, es un hacker e investigador de ciberseguridad originario del norte de Devon, Inglaterra, que la tarde del 12 de mayo del 2017 salvaría al internet, con ayuda de su gran conocimiento informático y un poco de suerte.</p>
+
+<p style="text-align:justify;">Para las 2:30 pm, después de enterarse sobre el ciberataque a través de comentarios en foros, un amigo le envió una muestra del código de <b>WannaCry</b> y comenzó a estudiarlo con detenimiento. Notó que el código "revisaba" un extraño <em>URL</em>, así que por curiosidad lo copió en un buscador y se dio cuenta que el sitio web no existía, por lo que registró el dominio para ver que sucedía e inmediatamente el número de ataques comenzaron a desender. Éste resultó ser un <u><b>kill switch</b></u>.</p> 
+
+<pre><b>kill switch:</b> una función que detiene abruptamente un software</pre>  
+
+<p style="text-align:justify;">Básicamente lo que el malware hacía era que antes de encriptar los archivos de una computadora revisaba el dominio <em><b>iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com</b></em>, si no podía encontrarlo entonces continuaba con la "infección" de la computadora. Cuando el dominio fue registrado, a pesar de que el malware continuaba esparciéndose ya no era efectivo. En pocas palabras, Hutchins lo "neutralizó". En su cuenta de Twitter publicó lo que había sucedido y una pequeña muestra de cómo lo había logrado.</p>
+
+<img src="https://ruexmag.files.wordpress.com/2020/05/sinkhole.png" alt="" width="521" height="367" class="aligncenter size-full wp-image-6151" />
+
+<p style="text-align:justify;">Este sitio web se encuentra actualmente <em>sinkholed</em> en los servidores de la empresa que emplea a Marcus llamada <b>Kryptos Logic</b>. Puedes buscar el sitio pero no te llevará a ningún lado. Mientras el sitio se encuentre activo estamos a salvo de <b>WannaCry</b>. Un poco más de un año después el ataque se le atribuyó al grupo de hackers norcoreanos llamado <em>Lazarus</em>.
+
+<pre><b>Sinkholing</b>: es una técnica para redirigir el tráfico de datos
+de una red hacia el servidor de tu preferencia. </pre>
+
+<p style="text-align:justify;">La ironía aquí es que se sabe que solo alrededor de 330 usuarios pagaron la recompensa, traduciéndose en 100,000 dólares de ganancias, una cantidad no muy grande si la comparamos con el alcance que el ransonmware tuvo. Además el sistema de desbloqueo era manual, eso quiere decir que los mismos hackers debían desencriptar los datos de las computadoras, una por una, lo que expertos en ciberseguridad han señalado como un error de 'amateurs', así como el simple hecho de tener incluído un <em>kill switch</em> en su código. </p>
+
+<pre>El dominio programado para neutralizar WannaCry: 
+<b>iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com</b></pre>
+
+<p style="text-align:justify;">A pesar de "haber salvado el internet" esa tarde, Hutchins tuvo que continuar trabajando sin parar por varios días más, ya que el sitio estuvo bajo continuo ataque, tratando de llenarlo de tráfico basura para saturarlo e inhabilitarlo. Marcus y otros miembros del equipo de <b>Kryptos Logic</b> continuaron monitoreando el comportamiento del malware. En los siguientes 2 días recibieron 2 millones de conexiones nuevas. Se dieron cuenta que si el sitio web era tirado de la web todas estas computadoras serían infectadas inmediatamente y el ataque tendría consecuencias catastróficas. En tan solo 24 horas más alcanzaría a absolutamente todas las computadoras vulnerables en el mundo.</p>
+
+<p style="text-align:justify;">Al mismo tiempo, cientos de periodistas buscaban entrevistarlo y lamentablemente los datos reales de la persona detrás del usuario <b>MalwareTech</b> fueron publicados en uno de los periódicos más grandes del Reino Unido. Todo el mundo conocía ya el nombre del neutralizador de <b>WannaCry</b>. Sin embargo, este acto "heróico" le daría una fama instantánea que rápidamente se convertiría en su peor pesadilla.</p>
+
+<img src="https://ruexmag.files.wordpress.com/2020/05/wannacry4.png" alt="" width="820" height="312" class="aligncenter size-full wp-image-6158" />
+
+<p style="text-align:justify;">Tan solo tres meses después, Marcus asistió a <u>Defcon</u> en Las Vegas, una de las convenciones de <em>hacking</em> más populares del mundo. Tras una semana en los Estados Unidos, fue detenido por el FBI antes de abordar su vuelo de regreso al Reino Unido. Es ahí donde Marcus comenzaría una travesía que duraría alrededor de un año y medio para recuperar su libertad.</p>
+
+<p style="text-align:justify;">En un principio se creía que que Marcus había sido detenido para ser interrogado sobre su participación en la neutralización de <b>WannaCry</b>; sin embargo, muy pronto se revelaría que en realidad tenía que ver con su participación tres años atrás en la creación de un malware bancario llamado <b>Kronos</b>. Más información sobre actos delictivos en el internet cometidos en su adolescencia surgirían a partir de ese momento. La comunidad de la informática estaba en shock. No podían creer que "el salvador del internet" tuviera un pasado delictivo como ese.</p>
+
+<pre><b>Kronos</b> es un malware bancario programado para robar credenciales
+de inicio de sesión bancario en un navegador. Fue reportado por 
+primera vez en el 2014 y atacó principalmente bancos británicos en 
+el 2015.</pre>
+
+<p style="text-align:justify;">Para su suerte miembros de la comunidad de ciberseguridad pagaron su fianza y logró salir de la cárcel. Pero sin poder dejar los Estados Unidos debido a la investigación, Marcus pasaría alrededor de un año y medio en el país sin permiso para trabajar. Se asentó en la ciudad de Los Ángeles esperando a ir a juicio. Nuevamente, para su suerte, dos conocidos abogados expertos en el tema tomaron su caso pro bono. Al mismo tiempo, muchos entusiastas del internet donaron dinero a un fondo creado para costear los gastos de su defensa.</p>
+
+<p style="text-align:justify;">Pero, para desgracia de toda la comunidad que lo defendió online durante meses, Marcus en efecto era responsable de los actos de los que se le acusaban. Sabía que le esperaban años en prisión. Pronto resurgirían viejos posts dentro de foros de hackers y pruebas del manejo de servicios ilegales de hosting, un botnet, y por supuesto, de creación de malware. Si bien Hutchins no era el creador de Kronos, sí había vendido un código de malware escrito por él, el cual sería después parte del código de <b>Kronos</b>. </p>
+
+<img src="https://ruexmag.files.wordpress.com/2020/05/wannacry5.png" alt="" width="820" height="312" class="aligncenter size-full wp-image-6159" />
+
+<p style="text-align:justify;">Nueve meses después de su arresto se le ofreció un trato para delatar a otros hackers con los que hubiera tenido contacto en esa época a cambio de librarse del tiempo en prisión, el cual rechazó. Hutchins decidió llevar su caso a la corte para luchar por su caso; sin embargo, antes del juicio decidió tomar un acuerdo de culpabilidad donde aceptaría dos de los diez cargos de los que se le culpaba y finalmente asumir la responsabilidad de sus actos.</p>
+
+<pre>He aceptado 2 de los 10 cargos relacionados con la creación de malware,
+años antes de mi carrera en ciberseguridad. Estoy arrepentido y acepto
+la responsabilidad de mis errores. - Marcus Hutchins </pre>
+
+<p style="text-align:justify;">Todos, incluído Marcus, estaban seguros que no saldría de ahí como un hombre libre. Le esperaban alrededor de 10 años en prisión y una multa de medio millón de dólares. Sin embargo, la sentencia del juez sorprendería a todos: "tiempo servido". Así es, un día de julio del 2019 Marcus salió libre gracias a que el juez tomó en cuenta sus muestras de reivindicación y su participación en la neutralización del ciberataque más grande en la historia del internet.</p>
+
+<p style="text-align:justify;">El juez afirmó que no consideraba a Marcus como un criminal, sino como un experto en ciberseguridad que había cambiado de rumbo. "Se necesitará de individuos como tú con ese nivel de habilidades, inclusive a la temprana edad de 24 o 25, para encontrar soluciones", dijo el juez antes de anunciar la sentencia. Marcus, afirmó en el reciente artículo publicado en la revista <b>wired.com</b> que no es necesario adentrarse "en el lado oscuro" para convertirse en un experto en ciberseguridad, al contrario de lo que algunos pudieran creer, incluyéndose él en su adolescencia. "Puedes aprender todo lo que necesitas de manera legar. Apégate al lado bueno."</p>
+
+<pre>No quiero ser conocido como el "WannaCry hacker" o el "Kronos hacker".
+Solo quiero ser alguien que puede ayudar a mejorar las cosas. - Marcus Hutchins</pre>
+
+<p style="text-align:justify;">Finalmente, si algo nos deja de aprendizaje esta historia del cibertaque más grande de la historia, las áreas grises de la informática y el hacking, y la experiencia de Hutchins es: deja de apretar "Recordar mañana" en el mensaje de "actualización" de tu computadora y recuerda respaldar tu información con regularidad. ¡Ah! Y sí, el gobierno nos está vigilando. Digo, ¿qué? Recuerda seguirnos en todas nuestras redes y lee más historias como ésta. </p>
+
+<img src="https://ruexmag.files.wordpress.com/2020/05/follow-logo-azul.png" alt="" width="150" height="151" class="aligncenter size-full wp-image-6161" />
+
+<pre>Portada: <a href="https://unsplash.com/@cbpsc1">Clint Patterson</a></pre>
+
+<hr />
+
+<h4 style="text-align:center;"><a href="https://ruexmag.com/2020/03/26/warnymph-un-ente-digital-que-se-desprende-de-su-contraparte-humana-para-adquirir-vida-propia/">¿Te quedaste con ganas de más? Checa:
+WarNymph: Un ente digital que se desprende de su contraparte humana para adquirir vida propia </a></h4>
