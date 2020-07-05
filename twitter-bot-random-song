@@ -1,0 +1,139 @@
+import tweepy
+import time
+import random
+
+list = ['Truth Hurts - Lizzo https://www.youtube.com/watch?v=P00HMxdsVZI',
+ 'Be Someone - CamelPhat, Jake Bugg https://www.youtube.com/watch?v=sSJ-jfKaE4g',
+'Summertime in Paris - Jaden, Willow https://www.youtube.com/watch?v=8rL4jorQlXw',
+'Cristal - Entre Desiertos https://www.youtube.com/watch?v=bEyofjTu_SE',
+'Body & Soul - Black Futures https://www.youtube.com/watch?v=amtEN2VTjQE',
+'Waiting on the Warmth - Mormor https://www.youtube.com/watch?v=aUO5OD4wzmw',
+'Viva La Femme - Pájaros Vampiro https://www.youtube.com/watch?v=77PMYRiNgzA',
+'5/4 - Dj Perro https://www.youtube.com/watch?v=yqaXTOfyM7c',
+'Hormone - The Mysterines https://www.youtube.com/watch?v=qJl_Nd0F_Tg',
+'Sweet Spot - Kim Petras https://www.youtube.com/watch?v=BkdTQWS5Mj0',
+'Aguante - Mala Rodríguez https://www.youtube.com/watch?v=LNaiiSgi3ME',
+'PrettyGirlz - Willow https://www.youtube.com/watch?v=7BjaSETABx8',
+'Prophet - King Princess https://www.youtube.com/watch?v=9jNyNMvaAMw',
+'Dale - Niña Dioz https://www.youtube.com/watch?v=LrcWbPZJhYU',
+'Get Up - GHUM https://www.youtube.com/watch?v=r2BY6SSguTk',
+'Chin Chin - Noga Erez, ECHO https://www.youtube.com/watch?v=yz6b8QSw960',
+'Run - Emika https://www.youtube.com/watch?v=2Myhbts4bRs',
+'Libélula - Renee Mooi https://www.youtube.com/watch?v=YUSNrBcgwa8',
+'Alfonsina y el Mar - Loyal Lobos https://www.youtube.com/watch?v=lnkvRyLXptA',
+'Gris - Marco Mares https://www.youtube.com/watch?v=UKfiTFfmpE0',
+'Nubulosa - Maniobra Heimlich https://www.youtube.com/watch?v=zPjLLPW9mUw',
+'Unwind - Paco Versalles https://www.youtube.com/watch?v=dd4XCA2L5J8',
+'First Class - Rainbow Kitten Surpise https://www.youtube.com/watch?v=bkM8S8RdoPk',
+'Jesse - Frankie Cosmos https://www.youtube.com/watch?v=wJg5IbGWtsA',
+'Romance - Ex:Re https://www.youtube.com/watch?v=l_Pf7z9Zr70',
+'De Lejos - Jackie Mendoza https://www.youtube.com/watch?v=PnYbr5YXrUk',
+'Vérité - Claire Laffut https://www.youtube.com/watch?v=tQ3HWIsZXPM',
+'Driving at Night - JAWS https://www.youtube.com/watch?v=DtLVG782q9A',
+'Again - Noah Cyrus https://www.youtube.com/watch?v=G_SjnHwxWMU',
+'Pájaros - Porter https://www.youtube.com/watch?v=LlOa6KiiAw0',
+'Is It Cold In The Water? - SOPHIE https://www.youtube.com/watch?v=q0rqR06E1WU',
+'Señal - Wet Baes https://www.youtube.com/watch?v=GNlv6kmEBKY',
+'Hey Bitch Lit (Wey super si) - Sailorfag, María Daniela y su Sonido Lasser https://www.youtube.com/watch?v=0vIC60ZRmSI',
+'Aquí y Ahora - Micca Mont https://www.youtube.com/watch?v=oEcHH182v-U',
+'Órdenes Para Mí - Marcela Viejo https://www.youtube.com/watch?v=95NaK6DaCQg',
+'So Blue - Tales https://www.youtube.com/watch?v=hBgxrMNrWmo',
+'Mind the Gap - Robbers https://www.youtube.com/watch?v=r7ZAkE2dnno',
+'Cornelia - The Guadaloops https://www.youtube.com/watch?v=XMoZCaY6TIs',
+'Vértigo - Ruido Rosa https://www.youtube.com/watch?v=yxTutHBhLhg',
+'Antal - Jean Loup https://www.youtube.com/watch?v=wb8ap3ZjFb0',
+'Relájate - Matilde Band https://www.youtube.com/watch?v=i2JIMPDylxo',
+'Templos - Clubz https://www.youtube.com/watch?v=6CNi6ETTQsM',
+'Corre - Simpson Ahuevo, Alemán https://www.youtube.com/watch?v=TRVM39ibiFI',
+'Aire - Beta https://www.youtube.com/watch?v=fcZC4KyDWWg',
+'Retrovisor - Vangal https://www.youtube.com/watch?v=Vg2ZZD9RgaA',
+'Gracias Por Nada - Little Jesus https://www.youtube.com/watch?v=PMKAv1lHM1A',
+'Look - Leikeli47 https://www.youtube.com/watch?v=wiNWOewl8Mc',
+'Ser Brigada - León Benavente https://www.youtube.com/watch?v=OVNhzFJwjpQ',
+'Seasonal Depression - Mxmtoon https://www.youtube.com/watch?v=M7yXav31eVA',
+'Euridyce - Big Big Love https://www.youtube.com/watch?v=0esW3JesbwE',
+'You´re a Germ - Wolf Alice https://www.youtube.com/watch?v=ZpomZoueWa0',
+'I Think We Should Stay In Love - Jesse https://www.youtube.com/watch?v=TM7FlfDxnkA',
+'Garden - Totally Enormous Extinct Dinosours https://www.youtube.com/watch?v=G-1HNnxb0WE',
+'On My Mind - Jorja Smith, Preditah https://www.youtube.com/watch?v=PA5uuBCtZ5k',
+'Amsterdam - Nothing But Thieves https://www.youtube.com/watch?v=X2zcG3bcuMI',
+'Never Swim Alone - DFA1979 https://www.youtube.com/watch?v=-ZGqA14oQCQ',
+'Special Affair/Curse - The Internet https://www.youtube.com/watch?v=CNJkas_LiCM',
+'F - Jesse Baez, Teen Flirt https://www.youtube.com/watch?v=qI_tIUuy8Bs',
+'Fire - Beth Ditto https://www.youtube.com/watch?v=IPbiklLnDQo',
+'¿Qué Nos Pasó? - DRIMS https://www.youtube.com/watch?v=zQYjC5GSLxo',
+'Acid Rain - Lorn https://www.youtube.com/watch?v=nxg4C365LbQ',
+'In Your Head - High Tyde https://www.youtube.com/watch?v=9tEG7ylKE7o',
+'Ghetto Woman - Lay https://www.youtube.com/watch?v=cGysD7b3wfw',
+'Rumors - Joywave https://www.youtube.com/watch?v=jz2LgNogPTM',
+'Space Glow - Sharkmuffin https://www.youtube.com/watch?v=Xy-xspLs-Qg&t=14s',
+'Interior Demenour - Alex Lahey https://www.youtube.com/watch?v=9OUwIBrJBvI',
+'Bloom - Troye Sivan https://www.youtube.com/watch?v=41PTANtZFW0',
+'Mala - La Garfield https://www.youtube.com/watch?v=_K4VkKWPh2k',
+'Estábamos Tan Bien - Daniela Spalla https://www.youtube.com/watch?v=X8usyc4o8cs',
+'Culpa, Tengo - Elsa y Elmar https://www.youtube.com/watch?v=EEPGKcYtMRY',
+'Vení - Indios https://www.youtube.com/watch?v=Lo9TNP8Fgtc',
+'Boogie - Borckhampton https://www.youtube.com/watch?v=4cucHc2vef4',
+'Blast - Clams Casino https://www.youtube.com/watch?v=BfIjIVLmhAI',
+'Slaves of Fear - Health https://www.youtube.com/watch?v=b-4CljCTSYI',
+'Amethyst - Pastel Ghost https://www.youtube.com/watch?v=kIE1MFXepC0',
+'Dreams - Zhu, Nero https://www.youtube.com/watch?v=QUKCGkPoH_E',
+'Favorite Song - Chance The Rapper https://www.youtube.com/watch?v=8mtA9GvpzwU',
+'The Alien - Manchester Orchestra https://www.youtube.com/watch?v=71U_qjHLM58',
+'Sprained Ankle - Julien Baker https://www.youtube.com/watch?v=wmGVIvf8Q6s',
+'Sour - Void Vision (Vancetti & Sacco Remix) https://www.youtube.com/watch?v=KkyabCf3ymQ',
+'Affection - Between Friends https://www.youtube.com/watch?v=uJoMqYumxmA',
+'Toi Et Moi - Paradis https://www.youtube.com/watch?v=5H4ekRWiW6U',
+'Figures - Jesse Reyez https://www.youtube.com/watch?v=wxLUj1Mrars',
+'Lifetime - Lilli Kendall https://www.youtube.com/watch?v=l5XNBZwVvII',
+'My Blood - AlunaGeorge, Zhu https://www.youtube.com/watch?v=kYPeb3W3zM8',
+'Eternal Sunshine - Jhené Aiko https://www.youtube.com/watch?v=SnnJhEy9IzY',
+'Sweat - Ry X https://www.youtube.com/watch?v=vwNceY7YkLk',
+'Is It Love - 3Lau https://www.youtube.com/watch?v=-GSJUNMDw7w',
+'Dale Calma - Technicolor Fabrics https://www.youtube.com/watch?v=VJcZ0VPN7ms']
+
+print('hello_world')
+
+CONSUMER_KEY = 'YMtc3zk4GyiHW51hXUXsq9WSF'
+CONSUMER_SECRET = 'Us1BgsxyDDsGvREuP6ztgW16AKsAxVHsdJojubS9NxCU34Cdjb'
+ACCESS_KEY = '754502219232337920-PqwNvG3tS8ZWTb90ktePCdFPQX9klvi'
+ACCESS_SECRET = 'JWds7j1CUrhrJWpq4JbLpt3klmnsXV1pKceNpXokpvdem'
+
+auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+api = tweepy.API(auth)
+
+FILE_NAME = 'last_seen_id.txt'
+
+def retrieve_last_seen_id(file_name):
+    f_read = open(file_name, 'r')
+    last_seen_id = int(f_read.read().strip())
+    f_read.close()
+    return last_seen_id
+
+def store_last_seen_id(last_seen_id, file_name):
+    f_write = open(file_name, 'w')
+    f_write.write(str(last_seen_id))
+    f_write.close()
+    return
+
+def reply_to_tweets():
+    print('retrieving and replying to tweets...')
+    last_seen_id = retrieve_last_seen_id(FILE_NAME)
+    mentions = api.mentions_timeline(
+                        last_seen_id,
+                        tweet_mode='extended')
+
+    for mention in reversed(mentions):
+        print(str(mention.id) + ' - ' + mention.full_text)
+        last_seen_id = mention.id
+        store_last_seen_id(last_seen_id, FILE_NAME)
+        if '#random' in mention.full_text.lower():
+            print ('found #random')
+            print ('responding back...')
+            api.update_status('@' + mention.user.screen_name + ' ' +
+                     random.choice(list) , mention.id)
+
+while True:
+    reply_to_tweets()
+    time.sleep(15)
